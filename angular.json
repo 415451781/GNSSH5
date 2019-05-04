@@ -82,7 +82,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/weixin-js-sdk/index.js",
+              "./node_modules/weixin-js-sdk/index.original.js",
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
